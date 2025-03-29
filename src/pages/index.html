@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/mqtt/dist/mqtt.min.js"></script>
+    <script type="module" src="/mqtt.js"></script>
+    <link rel="stylesheet" href="/styles/index.css">
+    <title>Arduíno IoT</title>
+</head>
+<body>
+    <div class="container">
+        <div class="response"></div>
+        <div class="buttons">
+            <button class="pushable" onclick="onLED()">
+                <span class="shadow"></span>
+                <span class="edge"></span>
+                <span class="front"> Ligar </span>
+            </button>
+            <button class="pushable" onclick="offLED()">
+                <span class="shadow"></span>
+                <span class="edge"></span>
+                <span class="front"> Desligar </span>
+            </button>
+        </div>
+    </div>
+</body>
+</html>
