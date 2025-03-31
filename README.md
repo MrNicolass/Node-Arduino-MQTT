@@ -31,12 +31,12 @@ Como navegadores não suportam MQTT nativamente, utilizamos a porta **8081**, qu
 
 A aplicação foi desenvolvida em **JavaScript** com **Node.js** e estruturada da seguinte forma:
 
-- : Inicializa o servidor na porta 3000 e importa os arquivos necessários.
-- : Contém o arquivo `routes.js`, que gerencia as rotas da aplicação.
-- : Armazena os arquivos HTML.
-- : Contém `mqtt.js`, responsável pela comunicação MQTT.
-- : Contém arquivos CSS e outros recursos.
-- : Contém o código em C++ para o Arduino.
+- Inicializa o servidor na porta 3000 e importa os arquivos necessários.
+- Contém o arquivo `routes.js`, que gerencia as rotas da aplicação.
+- Armazena os arquivos HTML.
+- Contém `mqtt.js`, responsável pela comunicação MQTT.
+- Contém arquivos CSS e outros recursos.
+- Contém o código em C++ para o Arduino.
 
 ### Comunicação MQTT
 
@@ -79,8 +79,6 @@ void loop() {
 ```
 
 ## Arquitetura do Projeto
-
-### Estrutura de Arquivos
 
 ### Fluxo de Comunicação
 
