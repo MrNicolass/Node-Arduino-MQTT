@@ -90,6 +90,15 @@ void loop() {
 
 ---
 
+## Setup
+### Server Express.JS
+1. Clone o projeto;
+2. Execute os comandos `npm install` e `npm install nodemon` no terminal em sequência;
+3. Digite `npm start` no terminal para executar o projeto e acesso no navegador o link a seguir: https://localhost:3000;
+### Arduino
+1. Basta alterar a variável de IP para um endereço válido e disponnível de sua rede local;
+2. Use uma ferramenta como o Arduino IDE para compilar e executar o código.
+
 ## Contribuidores
 A equipe envolvida neste projeto é constituída por alunos da 6ª Fase (20251) do curso de Engenharia de Software do Centro Universitário Católica SC de Jaraguá do Sul.
 
